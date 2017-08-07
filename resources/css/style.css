@@ -28,12 +28,18 @@ h3 {
   font-size: 14px;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .navlinks {
     font-size: 18px;
-    font-weight: bold;
+    color: white;
+    text-decoration: underline;
 }
 
 body {
     text-align: center;
     font-family: helvetica;
+    background-color: white;
 }
