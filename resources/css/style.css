@@ -13,7 +13,7 @@ h3 {
   font-weight: bold;
 }
 
-#DesignedNYC {
+.DesignedNYC {
     color: white;
     background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
 }
@@ -26,6 +26,12 @@ h3 {
 
 .sectionsubs {
   font-size: 14px;
+  color: black;
+}
+
+.sectionsubs, a {
+  color: black;
+  text-decoration: none;
 }
 
 ul {
@@ -43,6 +49,21 @@ li a {
   font-size: 18px;
   font-weight: bold;
   text-decoration: underline;
+}
+
+footer {
+  background-color: dimgray;
+  text-align: left;
+  color: white;
+}
+
+footer li {
+  display: inline;
+  font-size: 11px;
+}
+
+footer li a {
+  font-size: 11px;
 }
 
 body {
