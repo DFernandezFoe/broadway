@@ -30,12 +30,19 @@ h3 {
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-.navlinks {
-    font-size: 18px;
-    color: white;
-    text-decoration: underline;
+li {
+  margin-top: 15px;
+}
+
+li a {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 body {
